@@ -3,7 +3,7 @@ import { spicyFoods, getNewRandomSpicyFood } from "../data";
 
 function SpicyFoodList() {
   const [foods, setFoods] = useState(spicyFoods);
-  const [filterBy, setFilterBy] = useState("All");
+  // const [filterBy, setFilterBy] = useState("All");
 
   function handleAddFood() {
     const newFood = getNewRandomSpicyFood();
